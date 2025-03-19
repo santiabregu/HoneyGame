@@ -1,5 +1,6 @@
 # Honey Game
 This is a simplified version of the board game "Honey" done by me and three other students. This is the finished product, which is why the commits will not be visible here.
+You can see the prototypes and the actual game screenshots in the file: HoneyGame/docs/deliverables/Análisis de requisitos del sistema.md
 
 Original readme:
 Small project based on spring-petclinic for teaching SPA architectures with react, java and spring developer for teaching DP1 at the Software Engineering degree of University of Sevilla.
