@@ -1,4 +1,7 @@
-# React Petclinic
+# Honey Game
+This is a simplified version of the board game "Honey" done by me and three other students. This is the finished product, which is why the commits will not be visible here.
+
+Original readme:
 Small project based on spring-petclinic for teaching SPA architectures with react, java and spring developer for teaching DP1 at the Software Engineering degree of University of Sevilla.
 
 This is a fork of https://github.com/spring-projects/spring-petclinic  The main changes that have been performed were:
