@@ -1,0 +1,8 @@
+.board-container {
+    position: relative; /* Necesario para que los hexágonos se posicionen dentro */
+    width: 100%;       /* Ancho total del viewport */
+    height: 100vh;      /* Altura total del viewport */
+  }
+
+  
+  

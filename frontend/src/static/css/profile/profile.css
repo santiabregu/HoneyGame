@@ -1,0 +1,182 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 140px;
+  margin-right: 80px;
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: row; /* Coloca las secciones en una fila */
+  align-items: flex-start; /* Alinea las secciones en la parte superior */
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-stats {
+  padding: 50px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 800px;
+  font-size: 2.2em;
+}
+
+.profile-title {
+  font-size: 60px;
+  font-weight: bold;
+  margin-left: 550px;
+  margin-top: 25px;
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.username {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.edit-button {
+  display: flex;
+  align-items: center;
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: solid 2px var(--main-green-color);
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin-top: 20px;
+}
+
+.edit-button:hover {
+  background-color: var(--main-green-color);
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.edit-button:active {
+  transform: translateY(-1px);
+}
+
+.edit-button .icon {
+  margin-left: 10px;
+  display: inline-flex;
+}
+
+.profile-stats h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.profile-stats p {
+  font-size: 1em;
+  margin: 5px 0;
+}
+
+.stat-value {
+  font-weight: bold;
+  color: rgb(255, 0, 0);
+}
+.edit-profile-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra los elementos dentro del formulario */
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: 0 auto; /* Centra el formulario en la página */
+}
+
+.edit-profile-form label {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #333;
+  width: 100%; /* Ocupa el ancho completo del formulario */
+  text-align: left;
+}
+
+.edit-profile-form input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.select-photo-button {
+  font-size: 1em;
+  background-color: #FFA500;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 100%; /* Para que el botón de seleccionar foto se alinee al ancho del formulario */
+  text-align: center;
+}
+
+.edit-profile-form button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #ffffff;
+  background-color: #FFA500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.edit-profile-form button:hover {
+  background-color: #ffd900;
+}
+
+.edit-profile-form button:active {
+  background-color: #ffd900;
+}
+
+.ranking-button {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.ranking-button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,71 @@
+.waiting-room-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    background-color: #e0f7fa; /* Cambiar el color de fondo */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.waiting-room-title {
+    color: #ff9800; /* Cambiar el color del título */
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Agregar sombra al título */
+}
+
+.waiting-room-container p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #9e903f; /* Cambiar el color del texto */
+}
+
+.players-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.players-list p {
+    background-color: #904141;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #00796b; /* Cambiar el color del texto de los jugadores */
+}
+
+.hourglass-image {
+    margin-top: 5px;
+    width: 90px;
+    height: 80px;
+
+}
+
+.start-game-button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border: 2px solid rgb(205, 173, 58);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.start-game-button:hover {
+    background-color: darkorange;
+    transform: scale(1.05);
+
+}

@@ -1,0 +1,97 @@
+/* Estilo para el modal */
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px; /* Ancho del modal */
+    height: 570px; /* Altura del modal para que sea un cuadrado */
+    background-color: #ffffffaf;
+    padding: 20px;
+    z-index: 1000;
+    border: 2px solid #000000;
+    border-radius: 10px; /* Esquinas redondeadas */
+    display: block; /* Asegúrate de que el modal esté visible */
+    overflow: auto; /* Permitir desplazamiento si el contenido es mayor que el modal */
+}
+
+.active-modal {
+    overflow: hidden;
+}
+
+/* Estilo para el overlay */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(223, 218, 218, 0.7); /* Color semitransparente */
+    z-index: 1000; /* Debajo del modal */
+}
+
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+
+.open-modal {
+    position: fixed;
+    bottom: 100px;
+    right: 160px;
+    width: 100px; /* Ajusta el tamaño según sea necesario */
+    height: 100px; /* Ajusta el tamaño según sea necesario */
+    background-size: cover; /* Asegura que la imagen cubra el botón */
+    background-position: center; /* Centra la imagen */
+    border: none; /* Elimina el borde si no es necesario */
+    cursor: pointer;
+    padding: 0; /* Quita el padding */
+}
+
+.container-parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    right: 10px;
+    bottom: 10px;
+    position: fixed; /* Para posicionarlo en la pantalla */
+    box-sizing: border-box; /* Incluye el padding y borde en el tamaño total */
+    height: auto; /* Ajusta la altura según el contenido */
+    width: auto; /* Ajusta el ancho según el contenido */
+    max-height: 80%; /* Altura máxima para evitar que sea demasiado grande */
+    max-width: 150px; /* Ancho máximo opcional */
+   
+}
+
+.tiles-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px; /* Espacio entre los hexágonos */
+    padding: 10px; /* Espacio interno del contenedor */
+    border-radius: 8px; /* Esquinas redondeadas */
+    max-height: 480px; /* Altura máxima del contenedor */
+    overflow-y: auto; /* Desplazamiento vertical si hay muchos hexágonos */
+    box-sizing: border-box; /* Incluye el padding y borde en el tamaño total */
+    border: 2.5px solid #040404; /* Borde del contenedor, opcional */
+    
+  }
+
+  .close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+}
+

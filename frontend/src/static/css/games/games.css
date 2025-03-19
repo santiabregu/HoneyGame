@@ -1,0 +1,93 @@
+.games-played-container {
+    /*max-width: 800px;*/
+    width: 85%;
+    margin: 0 auto;
+    padding: 5px;
+  }
+  
+  .games-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .nombreImagen{
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+  }
+  .game-body{
+    display: flex;
+    flex-direction: column;
+  }
+  .game-body-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .buttons-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-content: start;
+  }
+  .game-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fdf6e3;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .game-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    gap: 5px;
+    margin-bottom: 0px
+  }
+  .game-header h2 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .game-header p {
+    font-style: italic;
+  }
+  
+  .game-body p {
+    margin: 0px 0;
+  }
+  
+  .game-body img {
+    width: 100%;
+    max-width: 75px;
+    border-radius: 10px;
+  }
+  .game-footer {
+    /*margin-top: 15px;*/
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  
+  .game-mode {
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #ffeb3b;
+    font-weight: bold;
+    align-items: center;
+    font-size: 0.9em;
+    color: #333;
+  }
+  .time-match {
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: lightblue;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #333;
+  }
+
+
+  

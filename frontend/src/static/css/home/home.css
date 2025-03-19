@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body {
+    margin: auto;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Fondo ligero */
+    background-image: url('../../images/home_background.jpg'); /* Correct relative path to the background image */
+    background-size: cover; /* Ensure the background covers the entire viewport */
+    background-attachment: fixed; /* Fix the background image */
+}
+
+.home-page-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-div {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 2rem;
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+}
+
+.hero-div h1 {
+    font-family: 'Playfair Display', serif; /* Vintage writing font */
+    font-size: 4rem;
+    font-weight: 700;
+    color: #c38718; /* Honey Buzz inspired text color */
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000; /* Black border effect */
+}
+
+.hero-div h3 {
+    text-align: center;
+}
+
+@keyframes fly {
+    0% { transform: translate(0, 0) scaleX(1); } /* Face right */
+    24.1% { transform: translate(-20vh, -5vh) scaleX(1); } /* Keep facing right */
+    25% { transform: translate(-20vh, -5vh) scaleX(-1); } /* Flip instantly to face left */
+    49.1% { transform: translate(40vh, 0) scaleX(-1); } /* Keep facing left */
+    50% { transform: translate(40vh, 0) scaleX(1); } /* Flip instantly to face right */
+    74% { transform: translate(20vh, 5vh) scaleX(1); } /* Keep facing right */
+    75.1% { transform: translate(20vh, 5vh) scaleX(-1); } /* Flip instantly to face left */
+    100% { transform: translate(0, 0) scaleX(-1); } /* End facing left */
+}
+
+.bee {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-image: url('frontend/src/static/images/bee-animation.gif');
+    background-size: cover;
+    animation: fly 10s infinite;
+    transform-origin: center; /* Ensure the flip happens around the center */
+}

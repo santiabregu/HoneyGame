@@ -1,0 +1,51 @@
+body {
+    margin: auto;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Fondo ligero */
+    background-image: url('../../images/home_background.jpg'); /* Correct relative path to the background image */
+    background-size: cover; /* Ensure the background covers the entire viewport */
+    background-attachment: fixed; /* Fix the background image */
+}
+
+.rules-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinear al principio del contenedor */
+    padding: 20px;
+    overflow-y: auto; /* Permitir desplazamiento si el contenido es más alto que la pantalla */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mayor legibilidad */
+}
+
+.rules-content {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo con un poco de transparencia */
+    padding: 2rem;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 800px; /* Limitar ancho máximo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.rules-content h2, .rules-content h3 {
+    text-align: center;
+    margin: 1rem 0; /* Espacio arriba y abajo */
+}
+
+.rules-content h2 {
+    color: #c70000;
+    font-size: 1.5rem; /* Tamaño de fuente para h2 */
+}
+
+.rules-content h3 {
+    font-size: 1.25rem; /* Tamaño de fuente para h3 */
+}
+
+.rules-content p, .rules-content ol, .rules-content ul {
+    font-size: 1rem; /* Tamaño de fuente uniforme */
+    color: #333; /* Color gris oscuro para el texto */
+    margin: 0.5rem 0; /* Espacio entre párrafos */
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+.rules-content ol, .rules-content ul {
+    padding-left: 20px; /* Sangría para listas */
+}

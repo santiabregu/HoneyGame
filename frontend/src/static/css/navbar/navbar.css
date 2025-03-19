@@ -1,0 +1,8 @@
+.custom-navbar {
+    background-color: #331c0de0; /* Custom background color */
+    color: #fff; /* Custom text color */
+}
+
+.logo-img {
+    filter: invert(1);
+}

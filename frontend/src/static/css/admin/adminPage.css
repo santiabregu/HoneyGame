@@ -1,0 +1,112 @@
+.admin-page-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-form-input {
+  position: relative;
+}
+
+.custom-form-input-label {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  transition: transform 0.5s, color 0.3s;
+  transform: translateY(-15px) scale(0.7);
+  transform-origin: top left;
+  color: #23c483;
+  cursor: pointer;
+}
+
+.custom-form-input-label:after {
+  content: "*";
+  color: #cc0033 !important;
+}
+
+.custom-input,
+.custom-textarea{
+    width: 100% !important;
+    font-family: inherit !important;
+    font-size: 1rem !important;
+    color: var(--color-input) !important;
+    padding: 0.6em 0.3em !important;
+    outline: none !important;
+    background-color: transparent !important;
+    margin: 20px 0;
+}
+
+.custom-input{
+  border: none !important;
+  border-bottom: 1px solid var(--main-button-hover-dark-color) !important;
+}
+
+.custom-input:disabled{
+  background-color: rgb(239, 239, 239) !important;
+}
+
+.custom-textarea{
+  border: 1px solid var(--main-button-hover-dark-color) !important;
+}
+
+.custom-button-row{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.custom-table td{
+  background-color: #fff2cc !important;
+  justify-content: space-between;
+}
+
+.users-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.user-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff2cc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  width: 250px;
+  text-align: center;
+}
+
+.user-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
+
+.user-info {
+  margin-bottom: 12px;
+}
+
+.user-name {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.user-details {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.user-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}

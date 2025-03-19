@@ -1,0 +1,52 @@
+/* src/settings/GeneralSettings.css */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.settings-container {
+    font-family: 'Great Vibes', cursive; /* Vintage writing font */
+    text-align: center;
+    padding: 20px;
+    background-color: #fdf6e3; /* Honey Buzz inspired background color */
+    color: #b58900; /* Honey Buzz inspired text color */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.play-button {
+    background-color: #d26f48;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.play-button:hover {
+    background-color: #b45c19;
+}
+
+.volume-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.volume-label {
+    font-family: 'Lobster', cursive; /* Vintage writing font */
+
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.volume-slider {
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.volume-percentage {
+    font-size: 1.2em;
+}

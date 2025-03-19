@@ -1,0 +1,22 @@
+.end-game-container {
+  position: fixed; /* Mantiene el botón en la esquina incluso si se hace scroll */
+  top: 70px; /* Ajusta según tu diseño */
+  left: 20px; /* Ajusta según tu diseño */
+}
+
+.end-game-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff4500; /* Cambia el color si lo deseas */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.end-game-button:hover {
+  background-color: #ff6347; /* Color más claro al pasar el mouse */
+}
+
+  

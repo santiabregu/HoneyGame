@@ -1,0 +1,78 @@
+.ranking-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  .ranking-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .ranking-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+  }
+  .ranking-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px; /* Aumenta el ancho */
+    height: 250px; /* Aumenta el alto */
+    text-align: center;
+    position: relative;
+    transition: transform 0.2s;
+  }
+  
+  .ranking-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .ranking-avatar {
+    width: 120px; /* Aumenta el tamaño del avatar */
+    height: 120px; /* Aumenta el tamaño del avatar */
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+  }
+  
+  .ranking-position {
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    background-color: orange;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ranking-username {
+    font-size: 1.2em; /* Ajusta el tamaño del texto */
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .ranking-points {
+    color: #666;
+    font-size: 1em;
+    margin-top: 10px; /* Agrega un margen para separarlo del nombre */
+  }

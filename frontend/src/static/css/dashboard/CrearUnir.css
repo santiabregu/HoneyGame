@@ -1,0 +1,44 @@
+.crear-unir-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.crear-unir-container h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #e0cc11; /* Tomate */
+    text-shadow: 2px 2px #ffa07a; /* Luz de coral */
+}
+
+.myButton {
+    background-color: orange;
+    color: white;
+    border: 2px solid rgb(227, 185, 33);
+    padding: 15px 30px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myButton:hover {
+    background-color: darkorange;
+}
+
+
+.close {
+    color: #aaa;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}

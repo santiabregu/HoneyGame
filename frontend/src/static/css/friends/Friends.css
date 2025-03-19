@@ -1,0 +1,134 @@
+.friends-container {
+    padding: 20px;
+}
+
+.friends-label {
+    font-size: 18px;
+    font-weight: bold;
+    display: block; /* Ensure the label is a block-level element */
+    margin-top: 10px; /* Add some space above the label */
+}
+
+.friends-search {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.friends-search-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.friends-search-input {
+    flex: 1;
+    padding: 5px;
+    font-size: 16px;
+    background-color: #94c980;
+
+}
+
+.friends-search-button {
+    padding: 5px 10px;
+    font-size: 16px;
+    margin-left: 10px;
+    background-color: #f3f5f2;
+}
+
+.friends-pending-button {
+    padding: 5px 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    display: block; /* Ensure the button is a block-level element */
+    margin-left: auto;
+    margin-right: auto; /* Center the button horizontally */
+    background-color: #df7811;
+
+}
+
+.friends-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.friend-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Distribuye los elementos */
+    padding: 10px;
+    background-color: #FFFACD;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.friend-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.friend-name {
+    font-size: 16px;
+}
+
+
+
+.status-indicator.online {
+    color: green;
+}
+
+.status-indicator.offline {
+    color: red;
+}
+.friend-info {
+    display: flex;
+    flex-direction: column; /* Mantén los elementos en columna */
+    align-items: flex-start; /* Alínea los elementos al inicio */
+    margin-left: 0px; /* Reduce el espacio entre la foto y el texto */
+}
+
+
+.friend-name {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 5px; /* Espacio entre el nombre y el estado */
+}
+
+.status-indicator {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.view-profile-button {
+    padding: 8px 12px;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+  
+  .view-profile-button:hover {
+    background-color: #ffa000;
+  }
+
+.delete-friend-button {
+    padding: 8px 12px;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.delete-friend-button:hover {
+    background-color: #e60000;
+}

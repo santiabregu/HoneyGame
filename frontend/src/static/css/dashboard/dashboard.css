@@ -1,0 +1,138 @@
+body {
+    margin: auto;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light background */
+    background-image: url('../../images/home_background.jpg'); /* Background image */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Allow for content overflow */
+}
+
+.dashboard-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    width: 90%;
+    max-width: 1200px;
+    gap: 2rem; /* Add gap for consistent spacing */
+}
+
+.dashboard-box {
+    background-image: url('frontend/public/woodcontainer2.png'); /* Wood box background */
+    background-size: cover;
+    background-position: center;
+    padding: 3rem;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1;
+    margin: 0 2rem; /* Increase spacing */
+    transition: transform 0.3s;
+    max-width: 250px;
+    height: 350px; /* Adjust height */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center children horizontally */
+}
+
+.dashboard-box:hover {
+    transform: scale(1.05);
+}
+
+.dashboard-box:nth-child(1) img {
+    width: 150px; /* Default size */
+    height: 120px; /* Maintain consistency */
+    object-fit: contain; /* Preserve aspect ratio */
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.dashboard-box:nth-child(2) img {
+    width: 150px; /* Default size */
+    height: auto; /* Maintain consistency */
+    object-fit: contain; /* Preserve aspect ratio */
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+.dashboard-box:nth-child(3) img {
+    width: 180px; /* Default size */
+    height: auto; /* Maintain consistency */
+    object-fit: contain; /* Preserve aspect ratio */
+    display: block; /* Make it block-level to center */
+    margin-right: 0.5rem; /* Center horizontally */
+}
+
+.dashboard-box h3 {
+    font-family: 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-box button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 3px solid; /* Set border width */
+    border-image: linear-gradient(45deg, #5c3317, #8a4e20) 1; /* Apply gradient to border */
+    border-radius: 5px;
+    cursor: pointer;
+    background: none; /* Remove background color */
+    width: 97%;
+    transition: background-color 0.3s;
+    position: absolute;
+    bottom: 105px; /* Adjust placement */
+    left: 50%;
+    transform: translateX(-56%);
+    align-self: center;
+    height: 37px;
+}
+
+.dashboard-box:nth-child(1) button {
+    background-color: #4a2309; /* Green for Survival */
+}
+
+.dashboard-box:nth-child(2) button {
+    background-color: #4a2309; /* Yellow for Solo */
+}
+
+.dashboard-box:nth-child(3) button {
+    background-color: #4a2309; /* Blue for Multiplayer */
+}
+
+.dashboard-box button:hover {
+    opacity: 0.9;
+}
+
+.friends-online-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.friends-online-container:hover {
+    transform: scale(1.05);
+}
+
+.friends-online-text {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.friends-online-image {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+}
+
